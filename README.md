@@ -1,6 +1,6 @@
 # Bird Species Classification with Transfer Learning
 
-This project implements a bird species classification system using transfer learning with EfficientNet B0. The model is built with PyTorch and leverages a custom dataset class to handle image data efficiently.
+This project implements a bird species classification system using transfer learning with EfficientNet B0. The model is built with PyTorch and leverages a custom dataset class to handle image data efficiently. After training the model, the model was saved. This saved model is used by an accompanying Flask application to test application.
 
 ## Table of Contents
 
@@ -92,9 +92,9 @@ def calculate_accuracy(model, data_loader, device):
     ...
 ```
 
-## Visualization
+## Visualizing Training
 
-Training and validation loss over epochs are visualized using Matplotlib:
+Training and validation loss over epochs are visualized using Matplotlib. Doing this allows us to see how our model has performed. Additionally, the result of the validation can help us to identify if the model has overfitted the training data.
 
 ```python
 plt.plot(training_loss, label='Training Loss')
@@ -104,4 +104,6 @@ plt.title('Loss')
 plt.show()
 ```
 
+## Flask Application for Testing
 
+![Description of the image](./app.png)

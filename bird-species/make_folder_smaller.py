@@ -39,8 +39,8 @@ if __name__ == "__main__":
     img_dir_train = 'train'
     img_dir_small_train = 'train_small'
 
-    img_dir_test_valid = 'test'
-    img_dir_small_test_valid = 'test_small'
+    img_dir_test_valid = 'valid'
+    img_dir_small_test_valid = 'valid_small'
     
     #img_dir2 ="/home/kevin/Programming/Python/ComputerVision/Bird_Classification/bird-species/train_v1/ABBOTTS BABBLER"
     #c = count_items_in_folder(img_dir2)
